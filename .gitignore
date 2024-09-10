@@ -1,0 +1,66 @@
+# Diretórios e arquivos Python compilados
+__pycache__/
+*.py[cod]
+*.so
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.temp
+*.tmp
+
+# Ambientes virtuais
+venv/
+env/
+.venv/
+.env/
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de notebooks
+.ipynb_checkpoints/
+
+# Arquivos de pacotes
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg-info/
+pip-wheel-metadata/
+wheels/
+
+# Arquivos de cache do pytest
+.cache/
+.pytest_cache/
+
+# Arquivos temporários do sistema
+*.swp
+*.bak
+*~
+
+# Arquivos gerados durante a construção de documentação
+docs/_build/
+
+# Arquivos e diretórios do Jupyter Notebook
+*.ipynb_checkpoints
+
+# Arquivos de configuração de cobertura de testes
+.coverage
+*.cover
+*.coverage.*
+.cache
+
+# Arquivos de configuração de containers
+docker-compose.override.yml
